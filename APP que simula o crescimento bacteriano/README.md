@@ -41,12 +41,12 @@ Condições Ambientais: após calcular a nova população em cada ciclo, o progr
 uma condição ambiental adversa ou favorável ocorre. A condição é determinada aleatoriamente 
 e aplicada com base nas seguintes probabilidades e impactos:
 
-condicão ambiental      probaliblidade (%)      impacto na população (%)
-alta temperatura                 20                     -30
-falta de nutrientes              15                     -25
-excesso de umidade               10                     -20
-radiação ultravioleta             5                     -50
-condição favorável               10                     +20
+condicão ambiental / probaliblidade (%) / impacto na população (%)
+alta temperatura = (20),(-30)
+falta de nutrientes = (15),(-25)
+excesso de umidade = (10), (20)
+radiação ultravioleta = (5),(-50)
+condição favorável = (10), (+20)
 
 O programa sorteia um número aleatório em cada ciclo para determinar se uma dessas condições 
 ocorre. Se nenhuma condição adversa ou favorável for sorteada, a população cresce apenas de 
